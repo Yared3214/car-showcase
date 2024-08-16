@@ -18,7 +18,7 @@ const Footer = () => {
           All Rights Reserved &copy;
         </p>
       </div>
-      <div className="flex-1 w-full flex md:justify-end flex-wrap max-md:mt-10 gap-20">
+      <div className="footer__links">
         {footerLinks.map((link)=>(
           <div key={link.title} className="footer__link">
             <h3 className="font-bold">
@@ -42,7 +42,7 @@ const Footer = () => {
       mt-10 border-t border-gray-100 sm:px-16 px-6 py-10">
         <p>@2024 CarHub. All Rights Reserved
         </p>
-        <div className="flex-1 flex sm:justify-end justify-center max-sm:mt-4 gap-10">
+        <div className="footer__copyrights-link">
           <Link href="/"
           className="text-gray-500">
             Privacy Policy
